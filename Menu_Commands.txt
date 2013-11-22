@@ -1,0 +1,322 @@
+128 MENU
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+{
+POPUP "&File"
+{
+    "&Browse	Enter",  32777
+    "Cl&one+browse	Ctrl+Enter",  32778
+    SEPARATOR
+    "Ne&w tab	Ctrl+Ins",  33036
+    "Browse &flat	Shift+Enter",  32903
+    "Send to &scrap	Ctrl+S",  32968
+    SEPARATOR
+    "&View	F3",  32788
+    "&Edit	F4",  32789
+    "&Properties...	F12",  32811
+    SEPARATOR
+    "&Rename	F2",  32792
+    "Change &type	Ctrl+F2",  32902
+    "&Mass rename...",  32975
+    "&Delete	Del",  32791
+    SEPARATOR
+    "&Close",  57602
+    "E&xit	Alt+X",  57665
+}
+POPUP "G&o to"
+{
+    "&Up a level	Bksp",  32779
+    "&Back	Alt+left",  32831
+    "&Forward	Alt+right",  32832
+    "Find &target	Ctrl+L",  32798
+    SEPARATOR
+    "Select &drive...	Alt+F1",  32940
+    "&Recent folder	Alt+F2",  32945
+    POPUP "Speci&al folders"
+    {
+        "&My documents	Ctrl+K",  32873
+        "R&ecent items",  32879
+        "Recycle &bin",  32875
+        SEPARATOR
+        "&Desktop	Ctrl+Back",  32872
+        "&Root	Shift+Back",  32942
+        "My comp&uter",  32877
+        "&Network",  32874
+        SEPARATOR
+        "&Control panel",  32876
+        "&Printers",  32878
+        "&Start menu",  32880
+        "S&tartup",  32881
+        "CD burnin&g",  32882
+        "Send t&o",  32883
+    }
+    SEPARATOR
+    "Quick boo&kmark	Ctrl+F1",  32834
+    "&Set quick-mark	Ctrl+Shift+F1",  32835
+    SEPARATOR
+    "&Mirror browsing	Ctrl+M",  32849
+    "Mirror s&crolling",  32933
+    SEPARATOR
+    "Sam&e folder	Ctrl+I",  32868
+    "Swap &panes	Ctrl+U",  32869
+}
+POPUP "&Bookmarks"
+{
+    "&Add current",  32989
+    "&Organize...",  32990
+    SEPARATOR
+    "(dummy)",  40100
+    SEPARATOR
+    "&More...",  32991
+    "IE &Favorites",  32884
+}
+POPUP "&Mark"
+{
+    "Select &All	Ctrl+A",  32787
+    "Unselect a&ll	Alt+A",  32803
+    "All &folders	Ctrl+Alt+Q",  33009
+    "Stick&y selection	Alt+S",  32802
+    SEPARATOR
+    "&Select group...	Gray +",  32845
+    "&Unselect group...	Gray -",  32846
+    "&Invert selection	Gray *",  32847
+    SEPARATOR
+    "Select &range...",  32891
+    "&Total size...",  33105
+    SEPARATOR
+    "Synchronize &panes	F9",  32843
+    "Sync &wizard...	Ctrl+F9",  32886
+    "Check &build...	Ctrl+F12",  32888
+    SEPARATOR
+    "&Containing text...	Ctrl+G",  32855
+    "&Matching a rule...	Alt+G",  32932
+    "&Quick search...",  33108
+    SEPARATOR
+    POPUP "S&election"
+    {
+        "S&tore	Ctrl+F11",  32910
+        SEPARATOR
+        "&Select	F11",  32911
+        "&Unselect	Alt+F11",  32912
+        "&Combine	Shift+F11",  32982
+    }
+}
+POPUP "&Edit"
+{
+    "Cu&t	Ctrl+X",  57635
+    "&Copy	Ctrl+C",  57634
+    "C&opy to...	F5",  32793
+    "&Move to...	F6",  32794
+    "&Queue status...",  33060
+    SEPARATOR
+    "&Paste	Ctrl+V",  57637
+    "Paste &Link",  32797
+    POPUP "Paste sp&ecial"
+    {
+        "&Hard link	Ctrl+Alt+H",  32799
+        "&Folder structure",  32913
+        "&Structured scrap clips",  32914
+        "&Multi paste",  33101
+        POPUP "Folder &junction"
+        {
+            "&Paste",  33114
+            "&Delete",  33115
+        }
+    }
+    "&Duplicate",  33045
+    SEPARATOR
+    "Copy &names	Alt+C",  32786
+    "Copy pre&view",  32790
+    "Copy col&umns	Ctrl+P",  32909
+}
+POPUP "&View"
+{
+    "&Dual pane	Ctrl+O",  32840
+    "&Quick viewer	Ctrl+Q",  32934
+    "&Lock viewer",  33121
+    POPUP "&Toolbars"
+    {
+        SEPARATOR
+        "&All toolbars",  59392
+        "&Status Bar",  59393
+        "&Info bars",  33054
+    }
+    SEPARATOR
+    POPUP "&Pane style"
+    {
+        "Lar&ge icons",  32780
+        "S&mall icons",  32781
+        "&List",  32782
+        "&Details",  32783
+        "Th&umbnails",  32784
+        "Mini &thumbs",  32785
+    }
+    "S&elect columns...	Alt+K",  32890
+    POPUP "&Arrange by"
+    {
+        "&Name	Ctrl+Alt+N",  32892
+        "&Size	Ctrl+Alt+S",  32893
+        "&Date	Ctrl+Alt+D",  32894
+        "&Type	Ctrl+Alt+T",  32895
+        "Other",  32898,  GRAYED
+        SEPARATOR
+        "&Unsorted	Ctrl+Alt+U",  32896
+        "&Ascending	Ctrl+Alt+A",  32899
+        SEPARATOR
+        "Show in &groups",  33102
+        "&Custom groups...	Ctrl+Alt+G",  33116
+    }
+    "Autosi&ze columns	Ctrl+Add",  32963
+    SEPARATOR
+    "&Refresh	Ctrl+R",  59395
+    "Hold a&utorefresh	Ctrl+Alt+R",  32946
+    "Ra&w contents",  32981
+    SEPARATOR
+    "S&how Tree	Ctrl+T",  32808
+    "Lo&cate in tree	Alt+T",  32806
+    "&Mini scrap",  33128
+    SEPARATOR
+    POPUP "&Visual filter"
+    {
+        "&Wildcard...	Ctrl+H",  32848
+        "&Rule based...	Alt+H",  33033
+        "&Auto-filter",  33049
+        "&On/Off	Ctrl+J",  32804
+        SEPARATOR
+        "Hide &folders	Alt+J",  32947
+        "Selected onl&y	Ctrl+Alt+J",  32984
+        SEPARATOR
+        "&Same filter	Ctrl+Alt+M",  33034
+    }
+    "Sh&ow all",  32985
+}
+POPUP "Actio&ns"
+{
+    "&New file	F7",  32795
+    "New &Folder	F8",  32796
+    SEPARATOR
+    "Set &comment...	Alt+Z",  32944
+    POPUP "ADS"
+    {
+        "&View streams",  33051
+        "&Bundle to go...",  33052
+        "&Unpack bundle",  33053
+    }
+    SEPARATOR
+    "Change &attributes...	Shift+F12",  32810
+    "S&ync-Touch",  32983
+    SEPARATOR
+    "&Split file...",  32821
+    "&Merge files...",  32822
+    "Shre&d",  32800
+    SEPARATOR
+    "Save settings no&w",  32907
+    "E&xport settings",  33055
+    POPUP "Fold&er settings"
+    {
+        "&Save",  32966
+        "&Clear",  32967
+        SEPARATOR
+        "S&uspend",  33048
+    }
+}
+POPUP "Too&ls"
+{
+    "&Run command",  32828
+    "&DOS command	F10",  32829
+    "Run &History...	Ctrl+F10",  32856
+    "R&epeat command	Alt+F10",  32844
+    "Command &script...	Ctrl+B",  32853
+    SEPARATOR
+    "&Find files...	Ctrl+F",  32885
+    "&Check duplicates...",  32964
+    "Compare su&bfolders...",  33056
+    SEPARATOR
+    "Free s&pace	Ctrl+Alt+Space",  32901
+    "S&ubfolder size	Ctrl+D",  32915
+    "Fo&lder statistics...	Alt+D",  33028
+    SEPARATOR
+    "&Options...",  32974
+}
+POPUP "&Window"
+{
+    "Scra&p container",  32809
+    "&List...	Ctrl+W",  32905
+    SEPARATOR
+    "Close &tab	Ctrl+F4",  33043
+    "Close &all tabs	Ctrl+Shift+F4",  33044
+    SEPARATOR
+    "&Clone	Ctrl+N",  32773
+    "&Save layout...",  32776
+    SEPARATOR
+    "(dummy)",  40000
+    SEPARATOR
+    "&Organize...",  33005
+    "&More layouts...",  33007
+}
+POPUP "C&ustomize"
+{
+    POPUP "&Toolbars"
+    {
+        "&Add new...",  32996
+        "&Organize...",  32997
+        SEPARATOR
+        "(dummy)",  39900
+    }
+    POPUP "&Column sets"
+    {
+        "&Add current",  32998
+        "&Organize...",  32999
+        SEPARATOR
+        "(dummy)",  40200
+        SEPARATOR
+        "&More...",  33000
+    }
+    POPUP "&User commands"
+    {
+        "&Add new...",  33001
+        "&Organize...",  33002
+        SEPARATOR
+        "(dummy)",  40300
+        SEPARATOR
+        "&More...",  33003
+    }
+    POPUP "&Folder groups"
+    {
+        "&Add current",  33040
+        "&Organize...",  33041
+        SEPARATOR
+        "(dummy)",  40400
+        SEPARATOR
+        "&More...",  33042
+    }
+    POPUP "Custom &groups"
+    {
+        "&Add current",  33117
+        "&Organize...",  33118
+        SEPARATOR
+        "(dummy)",  40500
+        SEPARATOR
+        "&More...",  33120
+    }
+    SEPARATOR
+    "&Keyboard use...",  33008
+    "Color codi&ng...",  33122
+}
+POPUP "Hel&p"
+{
+    "&Quick start",  32863
+    "&Contents	F1",  32864
+    "&Tip of the day...",  32979
+    SEPARATOR
+    "&Register program",  33018
+    "&Donate",  33019
+    "Check for &updates",  32904
+    "&Online support",  33020
+    SEPARATOR
+    "&Last error",  33029
+    SEPARATOR
+    "&About xplorer²...",  57664
+    "Licence a&greement...",  32865
+    "&What's new?",  32866
+}
+}
