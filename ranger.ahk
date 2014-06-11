@@ -55,10 +55,10 @@ h::SendInput +{Tab}`%homepath`%{Enter}
 ; o + s|t|n|d
 #If SubStr(ControlGetFocus("A"),1,19)=="ATL:BrowserListView" and vim_mode == "o"
 ; By Size
-s::!+m
-t::!+.
-n::!+n
-d::!+,
+s::^!s
+t::^!t
+n::^!n
+d::^!d
 #If
 ;}}}
 ; Options (z);  {{{1

@@ -1,0 +1,108 @@
+KEY BINDINGS
+
+Key bindings are defined in the file ranger/config/rc.conf. Check this file for a list of all key bindings. You can copy it to your local configuration directory with the --copy-config=rc option.
+
+Many key bindings take an additional numeric argument. Type 5j to move down 5 lines, 2l to open a file in mode 2, 10<Space> to mark 10 files.
+
+This list contains the most useful bindings:
+
+MAIN BINDINGS
+
+h, j, k, l
+Move left, down, up or right
+
+^D or J, ^U or K
+Move a half page down, up
+
+H, L
+Move back and forward in the history
+
+gg
+Move to the top
+
+G
+Move to the bottom
+
+^R
+Reload everything
+
+^L
+Redraw the screen
+
+i
+Display the current file in a bigger window.
+
+E
+Edit the current file in $EDITOR ("nano" by default)
+
+S
+Open a shell in the current directory
+
+?
+Opens this man page
+
+<octal>=, +<who><what>, -<who><what>
+Change the permissions of the selection. For example, 777= is equivalent to chmod 777 %s, +ar does chmod a+r %s, -ow does chmod o-w %s etc.
+
+yy
+Copy (yank) the selection, like pressing Ctrl+C in modern GUI programs.
+
+dd
+Cut the selection, like pressing Ctrl+X in modern GUI programs.
+
+pp
+Paste the files which were previously copied or cut, like pressing Ctrl+V in modern GUI programs.
+
+po
+Paste the copied/cut files, overwriting existing files.
+
+mX
+Create a bookmark with the name X
+
+`X
+Move to the bookmark with the name X
+
+n
+Find the next file. By default, this gets you to the newest file in the directory, but if you search something using the keys /, cm, ct, ..., it will get you to the next found entry.
+
+N
+Find the previous file.
+
+oX
+Change the sort method (like in mutt)
+
+zX
+Change settings. See the settings section for a list of settings and their hotkey.
+
+u?
+Universal undo-key. Depending on the key that you press after "u", it either restores closed tabs (uq), removes tags (ut), clears the copy/cut buffer (ud), starts the reversed visual mode (uV) or clears the selection (uv).
+
+f
+Quickly navigate by entering a part of the filename.
+
+Space
+Mark a file.
+
+v
+Toggle the mark-status of all files
+
+V
+Starts the visual mode, which selects all files between the starting point and the cursor until you press ESC. To unselect files in the same way, use "uV".
+
+/
+Search for files in the current directory.
+
+:
+Open the console.
+
+Alt-N
+Open a tab. N has to be a number from 0 to 9. If the tab doesn't exist yet, it will be created.
+
+gn, ^N
+Create a new tab.
+
+gt, gT
+Go to the next or previous tab. You can also use TAB and SHIFT+TAB instead.
+
+gc, ^W
+Close the current tab. The last tab cannot be closed this way.
